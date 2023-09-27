@@ -1,0 +1,28 @@
+#textbox {
+    width: 500px;
+    margin: 30px auto;
+}
+
+#box {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#txt {
+    width: 500px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: top 15s;
+    transition-timing-function: ease-in;
+}
+
+#txt:hover {
+    top: -5600px;
+    background-color: rgb(252, 249, 255);
+}
