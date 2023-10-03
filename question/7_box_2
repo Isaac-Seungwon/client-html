@@ -17,14 +17,15 @@
 		margin: 1px;
 	}
 	
-	#box div:hover {
-		background-color: #DD5043;
-		transform: rotate(360deg);
+	#box:hover div {
+		background-color: cornflowerblue;
+		transform: rotate(180deg);
 	}
 </style>
 </head>
 <body>
 	<div style="width: 900px; margin: 30px auto;">
+
 		<div id="box">
 			<div></div>
 			<div></div>
